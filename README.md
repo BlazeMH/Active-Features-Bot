@@ -6,30 +6,6 @@ A lightweight Discord bot that reads the latest “Featured Weapons” from Post
 
 ## ✨ Features
 
-- **Slash & Prefix**: `/features` and `!features`
-- **Postgres-backed**: Reads from `feature_weapon` table
-- **Weapon mask decoding**: Converts bitmasks into human names
-- **DST-aware time anchoring**: Anchors to a specific hour in a target TZ, then shows `<t:...:F>` and `<t:...:R>` for auto-localized display
-- **Async & fast**: Uses `asyncpg` pool
-- **Config via `.env`**: Token, DB, timezone, anchor hour
-
----
-
-## 📦 Requirements
-
-- Python **3.11+** (recommended)  
-- PostgreSQL 13+  
-- If you run on Windows or an environment missing the IANA database, install **tzdata** (see below).
-
-### Python packages
-# MHF-Z Featured Weapons Discord Bot
-
-A lightweight Discord bot that reads the latest “Featured Weapons” from PostgreSQL and posts a clean, timestamped embed. It supports both `!features` (prefix) and `/features` (slash) commands, and automatically localizes times for each viewer using Discord’s timestamp tags—while **anchoring** the shown time to a chosen hour in a chosen timezone (DST-aware).
-
----
-
-## ✨ Features
-
 - **Slash & Prefix Commands**: `/features` and `!features`
 - **Postgres-backed**: Reads from `feature_weapon` table
 - **Weapon mask decoding**: Converts bitmasks into readable weapon names
