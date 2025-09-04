@@ -62,8 +62,8 @@ Example: With FEATURES_TZ=America/New_York and FEATURES_HOUR=23, all features ar
 
 
 ## 📷 Example Output
-
 Here’s how the embed looks in Discord:
 
-![Feature Example](assets/feature_example.png)
+![Feature Display Example](assets/feature_example.png)
+
 
