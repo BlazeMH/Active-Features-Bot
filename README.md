@@ -59,7 +59,7 @@ FEATURES_HOUR=23
 🕒 How it works:
 Each start_time from the database is converted into your chosen timezone, then the date is anchored to FEATURES_HOUR.
 Example: With FEATURES_TZ=America/New_York and FEATURES_HOUR=23, all features are displayed as if they start at 11:00 PM Eastern on that date (DST-aware).
-
+```
 
 ## 📷 Example Output
 Here’s how the embed looks in Discord:
